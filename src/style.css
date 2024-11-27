@@ -1,0 +1,55 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+*{
+    color: #fff;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo {
+    /*display a logo at the top left corner*/
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+header .title {
+    font-size: 2rem;
+    position: relative;
+    left: 4rem;
+    padding-top: 0.5rem;
+}
+html, body {
+    overflow: hidden;
+    height: 100%;
+  }
+.content {
+    display: flex;
+    position: absolute  ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center  ;
+}  
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    padding: 1rem;
+    width: 30%;
+    height: 50%;
+}
